@@ -22,9 +22,7 @@ The **interface and gameplay messages are in Spanish**; source documentation and
 | File | Description |
 | --- | --- |
 | `Shadows_of_Eternity_Final.c` | Main/final version of the game, using pointer arithmetic in several gameplay and inventory routines. |
-| `Shadows_of_Eternity_Perder_Turno.c` | Alternate gameplay implementation with a different turn-handling structure. |
 | `Shadows_of_Eternity_Final.exe` | Precompiled Windows executable included in the original project. |
-| `Shadows_of_Eternity_Perder_Turno.exe` | Precompiled Windows executable for the alternate version. |
 
 **Important:** The `.exe` files came with the original archive and do not automatically reflect changes to the source comments. Recompile from the provided `.c` files to build your own current executable. This project does not require third-party C libraries.
 
@@ -52,13 +50,6 @@ Run:
 ./shadows_of_eternity
 ```
 
-Compile and run the alternate version:
-
-```bash
-gcc -std=c11 -O2 Shadows_of_Eternity_Perder_Turno.c -o shadows_alternate
-./shadows_alternate
-```
-
 ### Windows — GCC (MinGW-w64 or MSYS2)
 
 Compile the final version in PowerShell or a GCC-equipped terminal:
@@ -71,13 +62,6 @@ Run from PowerShell:
 
 ```powershell
 .\shadows_of_eternity.exe
-```
-
-For the alternate version:
-
-```powershell
-gcc -std=c11 -O2 Shadows_of_Eternity_Perder_Turno.c -o shadows_alternate.exe
-.\shadows_alternate.exe
 ```
 
 Alternatively, on Windows you can run the precompiled `.exe` files included in the archive, but compiling locally is recommended to use the provided source code.
