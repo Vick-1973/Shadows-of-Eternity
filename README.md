@@ -98,5 +98,5 @@ Most gameplay prompts and results are printed in Spanish. Use the displayed opti
 
 ## Authors
 
-- **Braulio Millanés Loza**
-- **Diego Armando Estévez Martínez (@diegoaestevez)**
+- **[Vick-1973](https://github.com/Vick-1973) - Braulio Millanés Loza**
+- **[diegoaestevez](https://github.com/diegoaestevez) - Diego Armando Estévez Martínez**
