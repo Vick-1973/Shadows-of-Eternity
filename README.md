@@ -99,4 +99,4 @@ Most gameplay prompts and results are printed in Spanish. Use the displayed opti
 ## Authors
 
 - **Braulio Millanés Loza**
-- **Diego Armando Estévez Martínez**
+- **Diego Armando Estévez Martínez (@diegoaestevez)**
